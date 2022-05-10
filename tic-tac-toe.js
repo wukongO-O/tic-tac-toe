@@ -19,7 +19,6 @@ const game = (() => {
         const gameBoardLen = (gameBoard.length % 2 == 0)? gameBoard.push('O') : gameBoard.push('X');
         e.target.textContent = `${gameBoard[gameBoardLen-1]}`;
         };
-        console.log(gameBoard);
         return {gameBoard};
     };
     const grids = document.querySelectorAll('.grid');
@@ -41,12 +40,12 @@ const game = (() => {
                 const winningMarker = winningGrids[i][0].innerHTML;
                 const winningPlayer = player(`${winningMarker}`);
                 const winner = winningPlayer.getName();
-                result.textContent = `player ${winner} wins!`;
+                result.textContent = `Player ${winner} wins! 🎉`;
                 gameBoard.length = 0;
                 break;
             }
             if (gridList.every(cell => cell.innerHTML!='')){
-                result.textContent = 'It\'s a tie!';
+                result.textContent = 'It\'s a tie! 🙃';
             }
         };
         return {gameBoard};
