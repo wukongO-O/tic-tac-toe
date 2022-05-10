@@ -40,7 +40,7 @@ const game = (() => {
                 const winningMarker = winningGrids[i][0].innerHTML;
                 const winningPlayer = player(`${winningMarker}`);
                 const winner = winningPlayer.getName();
-                result.textContent = `Player ${winner} wins! 🎉`;
+                result.textContent = `Player ${winningMarker}: ${winner} wins! 🎉`;
                 gameBoard.length = 0;
                 break;
             }
