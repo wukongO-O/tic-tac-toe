@@ -1,0 +1,10 @@
+.gameboard {
+ display: grid;
+ grid-template: repeat(3, 150px) / repeat(3, 150px);
+ justify-content: center;
+}
+
+.grid {
+  border: solid black 1px; 
+  aspect-ratio: 1/1;
+} 
