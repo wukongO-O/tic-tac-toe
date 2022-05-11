@@ -1,6 +1,7 @@
-# Tic-Tac-Toe
+# Tic-Tac-Toe 
 ## Demo
-Click [here](https://wukongo-o.github.io/tic-tac-toe/) to play the game!
+Click [here](https://wukongo-o.github.io/tic-tac-toe/) to play the game! ⭕ ❌ 🏁 ✨
+
 ![game demo gif](/TicTacToeDemo.gif)
 
 ## Description
